@@ -1,0 +1,94 @@
+
+body {
+    background-color: aquamarine ;
+    display: flex ;
+    justify-content: center;
+    align-items: center ;
+}
+
+main {
+    width: 80vw;
+    height: 50vh ;
+    padding: 30px; 
+    background-color: whitesmoke ;
+    border-radius: 20px;
+}
+
+.item {
+    
+    display :flex ;
+    padding: 20px;
+    height: 7vh ;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.total {
+   
+    border-bottom: 0.25px solid ;
+    border-bottom-color:cadetblue;
+    padding-bottom: 10px; 
+}
+
+.supprimer {
+
+    padding: 1vw; 
+}
+
+.like {
+
+    padding: 1vw; 
+}
+
+.img-item {
+   
+}
+
+.nom-color {
+    flex : 3 ;
+    padding: 1vw;  ;
+}
+
+.boutons {
+    flex: 2;
+    display: flex ;
+    align-items: first baseline; 
+}
+
+.color-item {
+    color : grey ; 
+}
+
+.count {
+   
+}
+
+.text-total {
+    font-size: 20px;
+}
+
+
+.supprimer {
+    cursor: pointer ;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 35px; 
+    height: 25px; 
+    resize: none ;
+    text-align: center ;
+}
+
+
+
+button {
+    padding: 3px;
+    padding-left: 10px; 
+      padding-right: 10px; 
+    margin: 10px ;
+}
+
+.like{
+    cursor: pointer ;
+}
